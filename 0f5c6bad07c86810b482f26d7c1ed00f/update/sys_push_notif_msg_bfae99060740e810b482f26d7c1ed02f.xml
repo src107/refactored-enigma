@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Today you need to take ${medicine}</message_string>
+        <name>Daily medicine notification</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="Medicine Content">6199c19e078ce810b482f26d7c1ed0f6</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-25 15:23:48</sys_created_on>
+        <sys_id>bfae99060740e810b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Daily medicine notification</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_push_notif_msg_bfae99060740e810b482f26d7c1ed02f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-27 06:40:44</sys_updated_on>
+        <table>x_399418_medicine_daily_medicine</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

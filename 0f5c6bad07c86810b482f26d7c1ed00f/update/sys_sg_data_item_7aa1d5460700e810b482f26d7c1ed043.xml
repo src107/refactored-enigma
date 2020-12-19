@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>My medicines</name>
+        <query_condition table="x_399418_medicine_daily_medicine">^ORDERBYDESCnumber<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-25 14:25:25</sys_created_on>
+        <sys_id>7aa1d5460700e810b482f26d7c1ed043</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My medicines</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_data_item_7aa1d5460700e810b482f26d7c1ed043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 09:01:33</sys_updated_on>
+        <table>x_399418_medicine_daily_medicine</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7aa1d5460700e810b482f26d7c1ed043"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Set Status to skipped</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 11:45:01</sys_created_on>
+        <sys_id>30d55b1e07cda050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Status to skipped</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_30d55b1e07cda050b482f26d7c1ed0e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 11:45:01</sys_updated_on>
+        <table>x_399418_medicine_daily_medicine</table>
+        <template>status=skipped^active=false^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=30d55b1e07cda050b482f26d7c1ed0e0"/>
+</record_update>

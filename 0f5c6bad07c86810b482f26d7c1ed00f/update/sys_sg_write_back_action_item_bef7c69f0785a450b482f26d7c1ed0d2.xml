@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    
+	try {
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		sn_fd.FlowAPI.getRunner().subflow('x_399418_medicine.lookup_and_create_med_record').inBackground().run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		//var result = sn_fd.FlowAPI.getRunner().subflow('x_399418_medicine.lookup_and_create_med_record').inForeground().run();
+		//var outputs = result.getOutputs();
+
+		// Current subflow has no outputs defined.		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error('Medicine Record creation error : ' + message);
+	}
+ 
+})(input);]]></execution_script>
+        <name>Generate record for today</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 08:42:04</sys_created_on>
+        <sys_id>bef7c69f0785a450b482f26d7c1ed0d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Generate record for today</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_bef7c69f0785a450b482f26d7c1ed0d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 08:43:34</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=bef7c69f0785a450b482f26d7c1ed0d2"/>
+</record_update>

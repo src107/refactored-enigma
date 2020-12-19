@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition">
+    <sys_sg_filter_condition action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Keyword</label>
+        <name>My Daily Medicine Keyword filter condition</name>
+        <sys_class_name>sys_sg_filter_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:29</sys_created_on>
+        <sys_id>308f4dd207cce810b482f26d7c1ed05f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Daily Medicine Keyword filter condition</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_308f4dd207cce810b482f26d7c1ed05f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:29</sys_updated_on>
+        <type display_value="String">1bcf83da73320010ed095a7b1bf6a7e2</type>
+    </sys_sg_filter_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_sg_filter_condition_308f4dd207cce810b482f26d7c1ed05f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition"><sys_sg_filter_condition action="INSERT_OR_UPDATE"><active>true</active><description/><label>Keyword</label><name>My Daily Medicine Keyword filter condition</name><sys_class_name>sys_sg_filter_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-26 08:54:29</sys_created_on><sys_id>308f4dd207cce810b482f26d7c1ed05f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Daily Medicine Keyword filter condition</sys_name><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sys_sg_filter_condition_308f4dd207cce810b482f26d7c1ed05f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-26 08:54:29</sys_updated_on><type display_value="String">1bcf83da73320010ed095a7b1bf6a7e2</type></sys_sg_filter_condition></record_update>]]></payload>
+        <payload_hash>260179380</payload_hash>
+        <record_name>My Daily Medicine Keyword filter condition</record_name>
+        <reverted_from/>
+        <source>975c6bad07c86810b482f26d7c1ed012</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:29</sys_created_on>
+        <sys_id>b48f4dd207cce810b482f26d7c1ed061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175641db4750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:29</sys_updated_on>
+        <type>Filter Condition</type>
+        <update_guid>fc8f4dd276cce810685f0b0ce7ab4660</update_guid>
+        <update_guid_history>fc8f4dd276cce810685f0b0ce7ab4660:260179380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_filter_condition">sys_sg_filter_condition</sys_db_object>
+        <sys_id>100dafc480df4743a79812057c1b94d9</sys_id>
+        <sys_metadata>308f4dd207cce810b482f26d7c1ed05f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Daily Medicine Keyword filter condition</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_308f4dd207cce810b482f26d7c1ed05f</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_308f4dd207cce810b482f26d7c1ed05f">b48f4dd207cce810b482f26d7c1ed061</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
