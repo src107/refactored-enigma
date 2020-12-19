@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch2-10-01-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>lookup_and_create_med_record</internal_name>
+        <label_cache>[{"name":"e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0.table_name","label":"7➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0.record","label":"7➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8d6fae65-cb32-402b-864e-6a17ddb14762.table_name","label":"5➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8d6fae65-cb32-402b-864e-6a17ddb14762.record","label":"5➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa45c9b0-84c2-4f6a-a124-c7a50957b978.item","label":"3➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type","label":"3➛Daily medicine Record➛Medicine Type","reference":"","reference_display":"Medicine Type","type":"choice","base_type":"choice","parent_table_name":"x_399418_medicine_daily_medicine","column_name":"medicine_type"},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table","label":"1➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records","label":"1➛Daily medicine Records","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>0a6c4fd207cda050b482f26d7c1ed070</latest_snapshot>
+        <master_snapshot>5a713a9a074da050b482f26d7c1ed028</master_snapshot>
+        <name>Lookup and create med record</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 08:56:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d7fae96074da050b482f26d7c1ed013</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Lookup and create med record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_hub_flow_0d7fae96074da050b482f26d7c1ed013</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d7fae96074da050b482f26d7c1ed013"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0d7fae96074da050b482f26d7c1ed013"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=0d7fae96074da050b482f26d7c1ed013^sys_idNOT IN11d07a5a074da050b482f26d7c1ed0e4,55d07a5a074da050b482f26d7c1ed0d2,55d07a5a074da050b482f26d7c1ed0e6,59d07a5a074da050b482f26d7c1ed0d6,5dd07a5a074da050b482f26d7c1ed0da,d5d07a5a074da050b482f26d7c1ed0eb,ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>5</order>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>11d07a5a074da050b482f26d7c1ed0e4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>8d6fae65-cb32-402b-864e-6a17ddb14762</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=11d07a5a074da050b482f26d7c1ed0e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11d07a5a074da050b482f26d7c1ed0e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11d07a5a074da050b482f26d7c1ed0e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>f971f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=11d07a5a074da050b482f26d7c1ed0e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>b571f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d1d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>7971f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>95d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0d2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>4f654b1b-e999-4fbd-b20f-e0bd2877d7b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55d07a5a074da050b482f26d7c1ed0d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>1dd07a5a074da050b482f26d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">0f400a1587003300663ca1bb36cb0b59</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>3971f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>3d71f69a074da050b482f26d7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">563ff9d187003300663ca1bb36cb0be8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:04:54</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>7571f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>91d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>b171f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">cd07ee090b30030085c083eb37673a39</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>ddd07a5a074da050b482f26d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>fd71f69a074da050b482f26d7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">5a3ff9d187003300663ca1bb36cb0bd8</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0e6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>86b3587d-58b2-474c-8d2c-05f2a428d0ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=55d07a5a074da050b482f26d7c1ed0e6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>886c3721-1001-439a-9f57-e66cebf760aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=59d07a5a074da050b482f26d7c1ed0d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>59d07a5a074da050b482f26d7c1ed0d6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>9dd07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>count is greater than zero</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59d07a5a074da050b482f26d7c1ed0d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>59d07a5a074da050b482f26d7c1ed0d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>1dd07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>59d07a5a074da050b482f26d7c1ed0d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">95d07a5a074da050b482f26d7c1ed0da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>5dd07a5a074da050b482f26d7c1ed0da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5dd07a5a074da050b482f26d7c1ed0da"/>
+    <sys_element_mapping action="delete_multiple" query="id=5dd07a5a074da050b482f26d7c1ed0da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>5dd07a5a074da050b482f26d7c1ed0da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d1d07a5a074da050b482f26d7c1ed0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>7</order>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d5d07a5a074da050b482f26d7c1ed0eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d07a5a074da050b482f26d7c1ed0eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5d07a5a074da050b482f26d7c1ed0eb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d9d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5d07a5a074da050b482f26d7c1ed0eb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>f171f69a074da050b482f26d7c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d5d07a5a074da050b482f26d7c1ed0eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>bd71f69a074da050b482f26d7c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>95d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>7171f69a074da050b482f26d7c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19d07a5a074da050b482f26d7c1ed0dd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>ddd07a5a074da050b482f26d7c1ed0dd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ddd07a5a074da050b482f26d7c1ed0dd</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>99d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>Medicine taken was Alopathy type</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ddd07a5a074da050b482f26d7c1ed0dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type}}=alo</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ddd07a5a074da050b482f26d7c1ed0dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0d7fae96074da050b482f26d7c1ed013^sys_idNOT IN817fae96074da050b482f26d7c1ed015"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0d7fae96074da050b482f26d7c1ed013</id>
+        <name>Lookup and create med record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 08:56:27</sys_created_on>
+        <sys_id>817fae96074da050b482f26d7c1ed015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 08:56:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0d7fae96074da050b482f26d7c1ed013^sys_idNOT IN11d07a5a074da050b482f26d7c1ed0e4,55d07a5a074da050b482f26d7c1ed0d2,d5d07a5a074da050b482f26d7c1ed0eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>5</order>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>11d07a5a074da050b482f26d7c1ed0e4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>8d6fae65-cb32-402b-864e-6a17ddb14762</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=11d07a5a074da050b482f26d7c1ed0e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11d07a5a074da050b482f26d7c1ed0e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11d07a5a074da050b482f26d7c1ed0e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>f971f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=11d07a5a074da050b482f26d7c1ed0e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>b571f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d1d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>7971f69a074da050b482f26d7c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>11d07a5a074da050b482f26d7c1ed0e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>95d07a5a074da050b482f26d7c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0d2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>4f654b1b-e999-4fbd-b20f-e0bd2877d7b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55d07a5a074da050b482f26d7c1ed0d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>1dd07a5a074da050b482f26d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">0f400a1587003300663ca1bb36cb0b59</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>3971f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>3d71f69a074da050b482f26d7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">563ff9d187003300663ca1bb36cb0be8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:04:54</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>7571f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>91d07a5a074da050b482f26d7c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>b171f69a074da050b482f26d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">cd07ee090b30030085c083eb37673a39</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>ddd07a5a074da050b482f26d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>55d07a5a074da050b482f26d7c1ed0d2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:14</sys_created_on>
+        <sys_id>fd71f69a074da050b482f26d7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:14</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">5a3ff9d187003300663ca1bb36cb0bd8</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <order>7</order>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d5d07a5a074da050b482f26d7c1ed0eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d07a5a074da050b482f26d7c1ed0eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5d07a5a074da050b482f26d7c1ed0eb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d9d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5d07a5a074da050b482f26d7c1ed0eb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>f171f69a074da050b482f26d7c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d5d07a5a074da050b482f26d7c1ed0eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>bd71f69a074da050b482f26d7c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>95d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:15</sys_created_on>
+        <sys_id>7171f69a074da050b482f26d7c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d5d07a5a074da050b482f26d7c1ed0eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0d7fae96074da050b482f26d7c1ed013^sys_idNOT IN55d07a5a074da050b482f26d7c1ed0e6,59d07a5a074da050b482f26d7c1ed0d6,5dd07a5a074da050b482f26d7c1ed0da,ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0e6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>86b3587d-58b2-474c-8d2c-05f2a428d0ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=55d07a5a074da050b482f26d7c1ed0e6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>886c3721-1001-439a-9f57-e66cebf760aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=59d07a5a074da050b482f26d7c1ed0d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>59d07a5a074da050b482f26d7c1ed0d6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>9dd07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>count is greater than zero</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59d07a5a074da050b482f26d7c1ed0d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>59d07a5a074da050b482f26d7c1ed0d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>1dd07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>59d07a5a074da050b482f26d7c1ed0d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>59d07a5a074da050b482f26d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">95d07a5a074da050b482f26d7c1ed0da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>5dd07a5a074da050b482f26d7c1ed0da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+        <ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5dd07a5a074da050b482f26d7c1ed0da"/>
+    <sys_element_mapping action="delete_multiple" query="id=5dd07a5a074da050b482f26d7c1ed0da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>5dd07a5a074da050b482f26d7c1ed0da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>d1d07a5a074da050b482f26d7c1ed0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19d07a5a074da050b482f26d7c1ed0dd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>ddd07a5a074da050b482f26d7c1ed0dd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:20</sys_updated_on>
+        <ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ddd07a5a074da050b482f26d7c1ed0dd</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>99d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <value>Medicine taken was Alopathy type</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ddd07a5a074da050b482f26d7c1ed0dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ddd07a5a074da050b482f26d7c1ed0dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>19d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type}}=alo</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ddd07a5a074da050b482f26d7c1ed0dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:02:29</sys_created_on>
+        <sys_id>55d07a5a074da050b482f26d7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0d7fae96074da050b482f26d7c1ed013^sys_idNOT IN72713a9a074da050b482f26d7c1ed095"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"72713a9a074da050b482f26d7c1ed095","name":"plan"}}</plan>
+        <plan_id display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</plan_id>
+        <snapshot>0a6c4fd207cda050b482f26d7c1ed070</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72713a9a074da050b482f26d7c1ed095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:19</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>lookup_and_create_med_record</internal_name>
+        <label_cache>[{"name":"e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0.table_name","label":"7➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0.record","label":"7➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8d6fae65-cb32-402b-864e-6a17ddb14762.table_name","label":"5➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8d6fae65-cb32-402b-864e-6a17ddb14762.record","label":"5➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa45c9b0-84c2-4f6a-a124-c7a50957b978.item","label":"3➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type","label":"3➛Daily medicine Record➛Medicine Type","reference":"","reference_display":"Medicine Type","type":"choice","base_type":"choice","parent_table_name":"x_399418_medicine_daily_medicine","column_name":"medicine_type"},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table","label":"1➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records","label":"1➛Daily medicine Records","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Lookup and create med record</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Lookup and create med record">0d7fae96074da050b482f26d7c1ed013</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a713a9a074da050b482f26d7c1ed028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a713a9a074da050b482f26d7c1ed028"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5a713a9a074da050b482f26d7c1ed028"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=5a713a9a074da050b482f26d7c1ed028^sys_idNOT IN26713a9a074da050b482f26d7c1ed04f,6a713a9a074da050b482f26d7c1ed04a,6e713a9a074da050b482f26d7c1ed043,92713a9a074da050b482f26d7c1ed030,a6713a9a074da050b482f26d7c1ed036,da713a9a074da050b482f26d7c1ed02c,de713a9a074da050b482f26d7c1ed032"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>7</order>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>26713a9a074da050b482f26d7c1ed04f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26713a9a074da050b482f26d7c1ed04f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>26713a9a074da050b482f26d7c1ed04f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=26713a9a074da050b482f26d7c1ed04f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>26713a9a074da050b482f26d7c1ed04f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>e2713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>26713a9a074da050b482f26d7c1ed04f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>5</order>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6a713a9a074da050b482f26d7c1ed04a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>8d6fae65-cb32-402b-864e-6a17ddb14762</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a713a9a074da050b482f26d7c1ed04a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a713a9a074da050b482f26d7c1ed04a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6e713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a713a9a074da050b482f26d7c1ed04a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6a713a9a074da050b482f26d7c1ed04a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6a713a9a074da050b482f26d7c1ed04a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>ea713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6e713a9a074da050b482f26d7c1ed043</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>4f654b1b-e999-4fbd-b20f-e0bd2877d7b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e713a9a074da050b482f26d7c1ed043"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>22713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">0f400a1587003300663ca1bb36cb0b59</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2e713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6a713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>e2713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">95d07a5a074da050b482f26d7c1ed0da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>92713a9a074da050b482f26d7c1ed030</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=92713a9a074da050b482f26d7c1ed030"/>
+    <sys_element_mapping action="delete_multiple" query="id=92713a9a074da050b482f26d7c1ed030"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>92713a9a074da050b482f26d7c1ed030</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>16713a9a074da050b482f26d7c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed036</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>86b3587d-58b2-474c-8d2c-05f2a428d0ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a6713a9a074da050b482f26d7c1ed036"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>da713a9a074da050b482f26d7c1ed02c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>886c3721-1001-439a-9f57-e66cebf760aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=da713a9a074da050b482f26d7c1ed02c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>da713a9a074da050b482f26d7c1ed02c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>96713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <value>count is greater than zero</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da713a9a074da050b482f26d7c1ed02c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>da713a9a074da050b482f26d7c1ed02c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>16713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>da713a9a074da050b482f26d7c1ed02c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>52713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19d07a5a074da050b482f26d7c1ed0dd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>de713a9a074da050b482f26d7c1ed032</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=de713a9a074da050b482f26d7c1ed032"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>de713a9a074da050b482f26d7c1ed032</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>aa713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <value>Medicine taken was Alopathy type</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de713a9a074da050b482f26d7c1ed032"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>de713a9a074da050b482f26d7c1ed032</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type}}=alo</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>de713a9a074da050b482f26d7c1ed032</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>66713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5a713a9a074da050b482f26d7c1ed028^sys_idNOT INd6713a9a074da050b482f26d7c1ed029"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5a713a9a074da050b482f26d7c1ed028</id>
+        <name>Lookup and create med record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>d6713a9a074da050b482f26d7c1ed029</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5a713a9a074da050b482f26d7c1ed028^sys_idNOT IN26713a9a074da050b482f26d7c1ed04f,6a713a9a074da050b482f26d7c1ed04a,6e713a9a074da050b482f26d7c1ed043"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>7</order>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>26713a9a074da050b482f26d7c1ed04f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>e838b2a1-27a6-4a10-8b8e-5e9ef78f6cd0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26713a9a074da050b482f26d7c1ed04f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>26713a9a074da050b482f26d7c1ed04f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>medicine_type=alo^medicine=saaz_osto</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=26713a9a074da050b482f26d7c1ed04f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>26713a9a074da050b482f26d7c1ed04f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>e2713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>26713a9a074da050b482f26d7c1ed04f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>5</order>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6a713a9a074da050b482f26d7c1ed04a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>8d6fae65-cb32-402b-864e-6a17ddb14762</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a713a9a074da050b482f26d7c1ed04a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a713a9a074da050b482f26d7c1ed04a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6e713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>medicine_type=ayu^medicine=giloye</value>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a713a9a074da050b482f26d7c1ed04a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6a713a9a074da050b482f26d7c1ed04a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6a713a9a074da050b482f26d7c1ed04a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>ea713a9a074da050b482f26d7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6e713a9a074da050b482f26d7c1ed043</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <ui_id>4f654b1b-e999-4fbd-b20f-e0bd2877d7b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e713a9a074da050b482f26d7c1ed043"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>22713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">0f400a1587003300663ca1bb36cb0b59</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>2e713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>6a713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>status!=skipped</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>2</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e713a9a074da050b482f26d7c1ed043</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:18</sys_created_on>
+        <sys_id>e2713a9a074da050b482f26d7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:18</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5a713a9a074da050b482f26d7c1ed028^sys_idNOT IN92713a9a074da050b482f26d7c1ed030,a6713a9a074da050b482f26d7c1ed036,da713a9a074da050b482f26d7c1ed02c,de713a9a074da050b482f26d7c1ed032"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">95d07a5a074da050b482f26d7c1ed0da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>886c3721-1001-439a-9f57-e66cebf760aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>92713a9a074da050b482f26d7c1ed030</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=92713a9a074da050b482f26d7c1ed030"/>
+    <sys_element_mapping action="delete_multiple" query="id=92713a9a074da050b482f26d7c1ed030"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>92713a9a074da050b482f26d7c1ed030</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>16713a9a074da050b482f26d7c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>a6713a9a074da050b482f26d7c1ed036</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>86b3587d-58b2-474c-8d2c-05f2a428d0ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a6713a9a074da050b482f26d7c1ed036"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dd07a5a074da050b482f26d7c1ed0d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>da713a9a074da050b482f26d7c1ed02c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>886c3721-1001-439a-9f57-e66cebf760aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=da713a9a074da050b482f26d7c1ed02c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>da713a9a074da050b482f26d7c1ed02c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>96713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <value>count is greater than zero</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da713a9a074da050b482f26d7c1ed02c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>da713a9a074da050b482f26d7c1ed02c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>16713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{4f654b1b-e999-4fbd-b20f-e0bd2877d7b5.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>da713a9a074da050b482f26d7c1ed02c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>52713a9a074da050b482f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19d07a5a074da050b482f26d7c1ed0dd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa45c9b0-84c2-4f6a-a124-c7a50957b978</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>de713a9a074da050b482f26d7c1ed032</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <ui_id>cfa28305-c521-4c1f-940a-1369abb26fbc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=de713a9a074da050b482f26d7c1ed032"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>de713a9a074da050b482f26d7c1ed032</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>aa713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <value>Medicine taken was Alopathy type</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de713a9a074da050b482f26d7c1ed032"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>de713a9a074da050b482f26d7c1ed032</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>2a713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{aa45c9b0-84c2-4f6a-a124-c7a50957b978.item.medicine_type}}=alo</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>de713a9a074da050b482f26d7c1ed032</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 09:05:17</sys_created_on>
+        <sys_id>66713a9a074da050b482f26d7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 09:05:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

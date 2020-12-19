@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_399418_medicine.notify.medicine</event_name>
+        <fired_by>Don't know will update later</fired_by>
+        <queue/>
+        <suffix>notify.medicine</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-25 15:10:24</sys_created_on>
+        <sys_id>f7cbddce0700e810b482f26d7c1ed06b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_399418_medicine.notify.medicine</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sysevent_register_f7cbddce0700e810b482f26d7c1ed06b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-25 15:10:24</sys_updated_on>
+        <table>x_399418_medicine_daily_medicine</table>
+    </sysevent_register>
+</record_update>

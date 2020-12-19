@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Aws user</name>
+        <password>cPxdd4y062AWw8QDq3eHYA==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 16:33:48</sys_created_on>
+        <sys_id>d26800db07186c10b482f26d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aws user</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_d26800db07186c10b482f26d7c1ed0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 16:33:48</sys_updated_on>
+        <username>ServiceNowS3User</username>
+    </sys_auth_profile_basic>
+</record_update>

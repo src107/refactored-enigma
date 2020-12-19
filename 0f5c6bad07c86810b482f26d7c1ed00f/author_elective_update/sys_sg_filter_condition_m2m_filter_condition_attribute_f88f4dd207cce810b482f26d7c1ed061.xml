@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_m2m_filter_condition_attribute">
+    <sys_sg_filter_condition_m2m_filter_condition_attribute action="DELETE">
+        <filter_condition display_value="My Daily Medicine Keyword filter condition">308f4dd207cce810b482f26d7c1ed05f</filter_condition>
+        <filter_condition_attribute/>
+        <sys_class_name>sys_sg_filter_condition_m2m_filter_condition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:29</sys_created_on>
+        <sys_id>f88f4dd207cce810b482f26d7c1ed061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_f88f4dd207cce810b482f26d7c1ed061</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:29</sys_updated_on>
+    </sys_sg_filter_condition_m2m_filter_condition_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_sg_filter_condition_m2m_filter_condition_attribute_f88f4dd207cce810b482f26d7c1ed061</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_m2m_filter_condition_attribute"><sys_sg_filter_condition_m2m_filter_condition_attribute action="INSERT_OR_UPDATE"><filter_condition display_value="My Daily Medicine Keyword filter condition">308f4dd207cce810b482f26d7c1ed05f</filter_condition><filter_condition_attribute/><sys_class_name>sys_sg_filter_condition_m2m_filter_condition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-26 08:54:29</sys_created_on><sys_id>f88f4dd207cce810b482f26d7c1ed061</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_f88f4dd207cce810b482f26d7c1ed061</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-26 08:54:29</sys_updated_on></sys_sg_filter_condition_m2m_filter_condition_attribute></record_update>]]></payload>
+        <payload_hash>-880768654</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>975c6bad07c86810b482f26d7c1ed012</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:34</sys_created_on>
+        <sys_id>028f8dd207cce810b482f26d7c1ed03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175641dc5310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:34</sys_updated_on>
+        <type>Filter Condition M2M Filter Condition At</type>
+        <update_guid>b88f4dd2a2cce81055cf2a5c78744063</update_guid>
+        <update_guid_history>b88f4dd2a2cce81055cf2a5c78744063:-359293683,b88f4dd2a2cce81055cf2a5c78744063:-359293683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-26 08:54:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_filter_condition_m2m_filter_condition_attribute">sys_sg_filter_condition_m2m_filter_condition_attribute</sys_db_object>
+        <sys_id>197ee210c2384d8e8eea1ce0268887b9</sys_id>
+        <sys_metadata>f88f4dd207cce810b482f26d7c1ed061</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_f88f4dd207cce810b482f26d7c1ed061</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_m2m_filter_condition_attribute_f88f4dd207cce810b482f26d7c1ed061">028f8dd207cce810b482f26d7c1ed03c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-26 08:54:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
