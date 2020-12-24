@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
     <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
-        <interleave_order_direction>desc</interleave_order_direction>
+        <interleave_order_direction>asc</interleave_order_direction>
         <name>Item Stream Segment</name>
         <order>10</order>
-        <screen/>
+        <screen display_value="My medicine for this week">3b1c858907992c50b482f26d7c1ed092</screen>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-25 14:26:28</sys_created_on>
-        <sys_id>4ee119860700e810b482f26d7c1ed0cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-12-23 14:45:46</sys_created_on>
+        <sys_id>082c858907992c50b482f26d7c1ed0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Item Stream Segment</sys_name>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_update_name>sys_sg_item_stream_segment_4ee119860700e810b482f26d7c1ed0cf</sys_update_name>
+        <sys_update_name>sys_sg_item_stream_segment_082c858907992c50b482f26d7c1ed0a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-26 08:57:18</sys_updated_on>
+        <sys_updated_on>2020-12-23 14:45:46</sys_updated_on>
     </sys_sg_item_stream_segment>
 </record_update>

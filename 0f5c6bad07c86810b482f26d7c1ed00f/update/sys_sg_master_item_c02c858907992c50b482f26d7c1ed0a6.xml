@@ -3,20 +3,20 @@
         <condition_order/>
         <datasource_table>x_399418_medicine_daily_medicine</datasource_table>
         <datasource_table_condition/>
-        <embedded_screen display_value="Medicine list">292a1cb3078de450b482f26d7c1ed02e</embedded_screen>
-        <item_view/>
-        <name>Medicine list Master Item</name>
+        <embedded_screen display_value="My medicine for this week">c82c858907992c50b482f26d7c1ed09c</embedded_screen>
+        <item_view display_value="My medicine for this week Item View">371c018907992c50b482f26d7c1ed057</item_view>
+        <name>My medicine for this week Master Item</name>
         <sys_class_name>sys_sg_master_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-19 13:55:02</sys_created_on>
-        <sys_id>312a1cb3078de450b482f26d7c1ed038</sys_id>
+        <sys_created_on>2020-12-23 14:45:46</sys_created_on>
+        <sys_id>c02c858907992c50b482f26d7c1ed0a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Medicine list Master Item</sys_name>
+        <sys_name>My medicine for this week Master Item</sys_name>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_update_name>sys_sg_master_item_312a1cb3078de450b482f26d7c1ed038</sys_update_name>
+        <sys_update_name>sys_sg_master_item_c02c858907992c50b482f26d7c1ed0a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-19 13:55:02</sys_updated_on>
+        <sys_updated_on>2020-12-23 14:45:46</sys_updated_on>
     </sys_sg_master_item>
 </record_update>

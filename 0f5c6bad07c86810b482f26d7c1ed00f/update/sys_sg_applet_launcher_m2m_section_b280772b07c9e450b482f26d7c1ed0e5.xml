@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="Medicines">31cdcd420700e810b482f26d7c1ed089</applet_launcher>
+        <applet_launcher/>
         <order>20</order>
         <section display_value="My Medicines Intake">be80772b07c9e450b482f26d7c1ed0e0</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>

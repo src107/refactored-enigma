@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher/>
+        <applet_launcher display_value="Medicines">31cdcd420700e810b482f26d7c1ed089</applet_launcher>
         <order>10</order>
-        <section/>
+        <section display_value="Medicine details for last 7 days">078c458907992c50b482f26d7c1ed0b3</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-25 14:36:30</sys_created_on>
-        <sys_id>1934550a0700e810b482f26d7c1ed0fd</sys_id>
+        <sys_created_on>2020-12-23 14:47:37</sys_created_on>
+        <sys_id>c38c458907992c50b482f26d7c1ed0b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_update_name>sys_sg_applet_launcher_m2m_section_1934550a0700e810b482f26d7c1ed0fd</sys_update_name>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_c38c458907992c50b482f26d7c1ed0b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-25 14:36:30</sys_updated_on>
+        <sys_updated_on>2020-12-23 14:47:37</sys_updated_on>
     </sys_sg_applet_launcher_m2m_section>
 </record_update>

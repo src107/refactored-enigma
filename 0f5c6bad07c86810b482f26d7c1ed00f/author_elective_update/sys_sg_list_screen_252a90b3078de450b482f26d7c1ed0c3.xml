@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">a12a90b3078de450b482f26d7c1ed0bd</icon>
+        <name>Medicine list</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 13:55:01</sys_created_on>
+        <sys_id>252a90b3078de450b482f26d7c1ed0c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medicine list</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_list_screen_252a90b3078de450b482f26d7c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 13:55:01</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=252a90b3078de450b482f26d7c1ed0c3"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_sg_list_screen_252a90b3078de450b482f26d7c1ed0c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">a12a90b3078de450b482f26d7c1ed0bd</icon>
+        <name>Medicine list</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 13:55:01</sys_created_on>
+        <sys_id>252a90b3078de450b482f26d7c1ed0c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medicine list</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_list_screen_252a90b3078de450b482f26d7c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 13:55:01</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=252a90b3078de450b482f26d7c1ed0c3"/>
+</record_update>]]></payload>
+        <payload_hash>1765874259</payload_hash>
+        <record_name>Medicine list</record_name>
+        <reverted_from/>
+        <source>e5178d0507992c50b482f26d7c1ed094</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 14:23:49</sys_created_on>
+        <sys_id>d217cd0507992c50b482f26d7c1ed09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1768ffc0e9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 14:23:49</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>1217cd05c1992c50738968436eeefe9d</update_guid>
+        <update_guid_history>1217cd05c1992c50738968436eeefe9d:0,e1093cc53a592c5013b390185321ac32:-2080339784,a12a1cb39f8de4501de27c72b734a026:1908440675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 14:43:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>98eb8493c57441e499cff3a7dfdc5010</sys_id>
+        <sys_metadata>252a90b3078de450b482f26d7c1ed0c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medicine list</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_252a90b3078de450b482f26d7c1ed0c3</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_252a90b3078de450b482f26d7c1ed0c3">d217cd0507992c50b482f26d7c1ed09d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 14:43:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

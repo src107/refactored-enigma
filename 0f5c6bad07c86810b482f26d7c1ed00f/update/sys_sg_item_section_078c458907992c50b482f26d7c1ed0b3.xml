@@ -2,7 +2,7 @@
     <sys_sg_item_section action="INSERT_OR_UPDATE">
         <active>true</active>
         <data_item/>
-        <destination_screen/>
+        <destination_screen display_value="My medicine for this week">3b1c858907992c50b482f26d7c1ed092</destination_screen>
         <display_title>true</display_title>
         <hide_header>false</hide_header>
         <hide_section_if_empty>false</hide_section_if_empty>
@@ -11,18 +11,18 @@
         <required_roles/>
         <sys_class_name>sys_sg_item_section</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-19 10:53:14</sys_created_on>
-        <sys_id>be80772b07c9e450b482f26d7c1ed0e0</sys_id>
+        <sys_created_on>2020-12-23 14:47:37</sys_created_on>
+        <sys_id>078c458907992c50b482f26d7c1ed0b3</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>My Medicines Intake</sys_name>
+        <sys_name>Medicine details for last 7 days</sys_name>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_update_name>sys_sg_item_section_be80772b07c9e450b482f26d7c1ed0e0</sys_update_name>
+        <sys_update_name>sys_sg_item_section_078c458907992c50b482f26d7c1ed0b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-19 13:55:38</sys_updated_on>
+        <sys_updated_on>2020-12-23 14:54:33</sys_updated_on>
         <table/>
-        <title>My Medicines Intake</title>
+        <title>Medicine details for last 7 days</title>
         <visible_condition/>
     </sys_sg_item_section>
 </record_update>
