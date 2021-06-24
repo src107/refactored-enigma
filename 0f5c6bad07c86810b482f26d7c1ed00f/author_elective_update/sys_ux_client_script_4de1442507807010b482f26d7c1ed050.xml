@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Medicine List">d28d593007487010b482f26d7c1ed018</macroponent>
+        <name>New client script 1</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 15:31:04</sys_created_on>
+        <sys_id>4de1442507807010b482f26d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_client_script_4de1442507807010b482f26d7c1ed050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 15:31:04</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_ux_client_script_4de1442507807010b482f26d7c1ed050</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Medicine List"&gt;d28d593007487010b482f26d7c1ed018&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-10 15:31:04&lt;/sys_created_on&gt;&lt;sys_id&gt;4de1442507807010b482f26d7c1ed050&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="Medicine" source="x_399418_medicine"&gt;0f5c6bad07c86810b482f26d7c1ed00f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Medicine"&gt;0f5c6bad07c86810b482f26d7c1ed00f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_4de1442507807010b482f26d7c1ed050&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-10 15:31:04&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1134801964</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>eac3983f074de450b482f26d7c1ed0af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 15:31:04</sys_created_on>
+        <sys_id>c9e1c82d07807010b482f26d7c1ed008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17956e7389c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 15:31:04</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>45e1c82d1f8070100eb7a45c9bf11f08</update_guid>
+        <update_guid_history>45e1c82d1f8070100eb7a45c9bf11f08:1134801964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 15:32:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>005676314d4a44508125d50b453058a4</sys_id>
+        <sys_metadata>4de1442507807010b482f26d7c1ed050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_4de1442507807010b482f26d7c1ed050</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_4de1442507807010b482f26d7c1ed050">c9e1c82d07807010b482f26d7c1ed008</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 15:32:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

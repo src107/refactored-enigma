@@ -2,7 +2,7 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="Set Status to Skipped">722bd95507996c50b482f26d7c1ed045</button>
-        <color_theme>destructive</color_theme>
+        <color_theme>secondary</color_theme>
         <description/>
         <field_name/>
         <icon/>
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-24 10:31:03</sys_created_on>
         <sys_id>1e6bdd5507996c50b482f26d7c1ed029</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Skipped</sys_name>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
         <sys_update_name>sys_sg_button_instance_1e6bdd5507996c50b482f26d7c1ed029</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-24 10:32:23</sys_updated_on>
+        <sys_updated_on>2020-12-25 11:05:39</sys_updated_on>
         <table>x_399418_medicine_daily_medicine</table>
     </sys_sg_button_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=1e6bdd5507996c50b482f26d7c1ed029"/>

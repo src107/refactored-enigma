@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="DELETE">
+        <input display_value="Medicine">b0aff61007622010b482f26d7c1ed0f0</input>
+        <name>Table</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-21 19:03:12</sys_created_on>
+        <sys_id>9036c3d407622010b482f26d7c1ed0eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_9036c3d407622010b482f26d7c1ed0eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-21 19:03:12</sys_updated_on>
+        <value>x_399418_medicine_daily_medicine</value>
+    </sys_sg_input_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_sg_input_attribute_9036c3d407622010b482f26d7c1ed0eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute"><sys_sg_input_attribute action="INSERT_OR_UPDATE"><input display_value="Medicine">b0aff61007622010b482f26d7c1ed0f0</input><name>Table</name><sys_class_name>sys_sg_input_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-21 19:03:12</sys_created_on><sys_id>9036c3d407622010b482f26d7c1ed0eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Table</sys_name><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sys_sg_input_attribute_9036c3d407622010b482f26d7c1ed0eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-21 19:03:12</sys_updated_on><value>x_399418_medicine_daily_medicine</value></sys_sg_input_attribute></record_update>]]></payload>
+        <payload_hash>-2020613830</payload_hash>
+        <record_name>Table</record_name>
+        <reverted_from/>
+        <source>eac3983f074de450b482f26d7c1ed0af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-21 19:03:12</sys_created_on>
+        <sys_id>98768bd407622010b482f26d7c1ed03a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c5f968e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-21 19:03:12</sys_updated_on>
+        <type>Input Attribute</type>
+        <update_guid>d0768bd41c622010fc1fb1b0b7753e3a</update_guid>
+        <update_guid_history>d0768bd41c622010fc1fb1b0b7753e3a:-2020613830</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-21 19:37:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_attribute">sys_sg_input_attribute</sys_db_object>
+        <sys_id>a0e8287b1a714356a26da83b86237ec4</sys_id>
+        <sys_metadata>9036c3d407622010b482f26d7c1ed0eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_sg_input_attribute_9036c3d407622010b482f26d7c1ed0eb</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_attribute_9036c3d407622010b482f26d7c1ed0eb">98768bd407622010b482f26d7c1ed03a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-21 19:37:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

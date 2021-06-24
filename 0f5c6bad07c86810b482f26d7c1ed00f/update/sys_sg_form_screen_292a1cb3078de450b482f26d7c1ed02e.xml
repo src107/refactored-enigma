@@ -4,6 +4,7 @@
         <data_item/>
         <description/>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>not_required</fetch_type>
         <filter/>
         <hide_filters>false</hide_filters>
@@ -11,7 +12,10 @@
         <icon display_value="Medicine list Icon">ad2a1cb3078de450b482f26d7c1ed029</icon>
         <item_view display_value="Medicine list Header Item View">a12a1cb3078de450b482f26d7c1ed02c</item_view>
         <name>Medicine list</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
         <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
         <sys_class_name>sys_sg_form_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-19 13:55:01</sys_created_on>
@@ -25,6 +29,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-19 13:55:01</sys_updated_on>
         <table>x_399418_medicine_daily_medicine</table>
+        <use_view_config>false</use_view_config>
+        <view_config/>
     </sys_sg_form_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=292a1cb3078de450b482f26d7c1ed02e"/>
 </record_update>

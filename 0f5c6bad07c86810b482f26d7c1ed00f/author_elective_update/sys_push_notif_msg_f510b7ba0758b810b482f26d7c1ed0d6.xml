@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="DELETE">
+        <message_string>Slots Available for ${vaccine_center}</message_string>
+        <name>Vaccine slots push message</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <push_message_content/>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 16:27:27</sys_created_on>
+        <sys_id>f510b7ba0758b810b482f26d7c1ed0d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vaccine slots push message</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_push_notif_msg_f510b7ba0758b810b482f26d7c1ed0d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 16:36:43</sys_updated_on>
+        <table>x_399418_vaccine_0_session</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_push_notif_msg_f510b7ba0758b810b482f26d7c1ed0d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg"><sys_push_notif_msg action="INSERT_OR_UPDATE"><message_string>Slots Available for ${vaccine_center}</message_string><name>Vaccine slots push message</name><push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app><push_message_content/><subject/><sys_class_name>sys_push_notif_msg</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 16:27:27</sys_created_on><sys_id>f510b7ba0758b810b482f26d7c1ed0d6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vaccine slots push message</sys_name><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sys_push_notif_msg_f510b7ba0758b810b482f26d7c1ed0d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 16:36:43</sys_updated_on><table>x_399418_vaccine_0_session</table><type>push</type></sys_push_notif_msg></record_update>]]></payload>
+        <payload_hash>-72129315</payload_hash>
+        <record_name>Vaccine slots push message</record_name>
+        <reverted_from/>
+        <source>eac3983f074de450b482f26d7c1ed0af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 16:36:43</sys_created_on>
+        <sys_id>94f333be0758b810b482f26d7c1ed0ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179aeaf6e960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 16:36:43</sys_updated_on>
+        <type>Push Notification Message</type>
+        <update_guid>d8f333beda58b810ed757157e2a3a4ab</update_guid>
+        <update_guid_history>d8f333beda58b810ed757157e2a3a4ab:-72129315,f4d1b7fa0a58b8104fcb47aeb65bb5f8:-778804444</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 17:02:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_push_notif_msg">sys_push_notif_msg</sys_db_object>
+        <sys_id>03829bb908604d75802118537ba06129</sys_id>
+        <sys_metadata>f510b7ba0758b810b482f26d7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vaccine slots push message</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_push_notif_msg_f510b7ba0758b810b482f26d7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sys_push_notif_msg_f510b7ba0758b810b482f26d7c1ed0d6">94f333be0758b810b482f26d7c1ed0ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 17:02:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

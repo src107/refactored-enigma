@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Med Portal">3eee0ef907426010b482f26d7c1ed097</app_config>
+        <description/>
+        <fields>table,sysid</fields>
+        <icon/>
+        <name>Medicine form</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>med-form</route_type>
+        <screen_type display_value="Medicine form">91d67ce1071a2010b482f26d7c1ed00f</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 19:32:31</sys_created_on>
+        <sys_id>29d6b465071a2010b482f26d7c1ed03a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Medicine form</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_app_route_29d6b465071a2010b482f26d7c1ed03a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 19:33:58</sys_updated_on>
+    </sys_ux_app_route>
+</record_update>

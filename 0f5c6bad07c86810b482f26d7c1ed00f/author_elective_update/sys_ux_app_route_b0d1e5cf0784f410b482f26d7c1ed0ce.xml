@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Medicine workspace">da4d517007487010b482f26d7c1ed015</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Medicine Record</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>med-record</route_type>
+        <screen_type display_value="Medicine Record">8bc1e14f0784f410b482f26d7c1ed07a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-15 14:21:05</sys_created_on>
+        <sys_id>b0d1e5cf0784f410b482f26d7c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medicine Record</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_app_route_b0d1e5cf0784f410b482f26d7c1ed0ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-15 14:21:05</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sys_ux_app_route_b0d1e5cf0784f410b482f26d7c1ed0ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Medicine workspace">da4d517007487010b482f26d7c1ed015</app_config><description/><fields/><icon/><name>Medicine Record</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>med-record</route_type><screen_type display_value="Medicine Record">8bc1e14f0784f410b482f26d7c1ed07a</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-15 14:21:05</sys_created_on><sys_id>b0d1e5cf0784f410b482f26d7c1ed0ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Medicine Record</sys_name><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sys_ux_app_route_b0d1e5cf0784f410b482f26d7c1ed0ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-15 14:21:05</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>740468885</payload_hash>
+        <record_name>Medicine Record</record_name>
+        <reverted_from/>
+        <source>eac3983f074de450b482f26d7c1ed0af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-15 14:21:05</sys_created_on>
+        <sys_id>f4d1e5cf0784f410b482f26d7c1ed0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1797066f2900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-15 14:21:05</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>30d1e5cf3784f4107389e7724523ded0</update_guid>
+        <update_guid_history>30d1e5cf3784f4107389e7724523ded0:740468885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-15 14:23:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>2f0986660bfe4c30a0f731376e623100</sys_id>
+        <sys_metadata>b0d1e5cf0784f410b482f26d7c1ed0ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medicine Record</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_b0d1e5cf0784f410b482f26d7c1ed0ce</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_b0d1e5cf0784f410b482f26d7c1ed0ce">f4d1e5cf0784f410b482f26d7c1ed0d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-15 14:23:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

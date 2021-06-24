@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_399418_medicine_daily_medicine</name>
             <sequence>50</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-11 06:38:09</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_399418_medicine_daily_medicine</name>
             <sequence>100</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 07:21:22</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +65,7 @@
             <language>en</language>
             <name>x_399418_medicine_daily_medicine</name>
             <sequence>200</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 07:21:40</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2020-12-24 10:54:50</last_registered_on>
+        <last_registered_on>2021-03-05 17:00:40</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-24 10:05:27</sys_created_on>
         <sys_id>6f85559d07596c50b482f26d7c1ed09d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>eFRMivjf8h8:APA91bFfsCkpFVC0q5MNcPTUYyltxphjaa63Rb0iO0QW6YklztYruqwb6ENdUj2ReaFQ32xBDCa1LoECRjz7stH5LUTErNTyMULTbCE-DTsUIFXpnMRvGsM12AyYNfoh22m966Tq_EdB</sys_name>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
         <sys_update_name>sys_push_notif_app_install_6f85559d07596c50b482f26d7c1ed09d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-24 10:54:50</sys_updated_on>
+        <sys_updated_on>2021-03-05 17:00:40</sys_updated_on>
         <sys_user_id display_value="Sourav Roy Choudhury">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>eFRMivjf8h8:APA91bFfsCkpFVC0q5MNcPTUYyltxphjaa63Rb0iO0QW6YklztYruqwb6ENdUj2ReaFQ32xBDCa1LoECRjz7stH5LUTErNTyMULTbCE-DTsUIFXpnMRvGsM12AyYNfoh22m966Tq_EdB</token>
     </sys_push_notif_app_install>

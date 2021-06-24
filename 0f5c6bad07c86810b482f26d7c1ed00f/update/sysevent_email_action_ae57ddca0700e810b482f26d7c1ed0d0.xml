@@ -48,7 +48,7 @@
         <recipient_groups/>
         <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject/>
@@ -59,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ae57ddca0700e810b482f26d7c1ed0d0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Notifiy what medicine to take</sys_name>
         <sys_overrides/>
         <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
@@ -67,7 +67,7 @@
         <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
         <sys_update_name>sysevent_email_action_ae57ddca0700e810b482f26d7c1ed0d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-26 08:37:10</sys_updated_on>
+        <sys_updated_on>2021-05-27 16:58:26</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

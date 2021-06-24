@@ -2,6 +2,8 @@
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">c82c858907992c50b482f26d7c1ed09f</embedded_screen>
         <form display_value="My medicine for this week">c82c858907992c50b482f26d7c1ed09c</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
         <order>10</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

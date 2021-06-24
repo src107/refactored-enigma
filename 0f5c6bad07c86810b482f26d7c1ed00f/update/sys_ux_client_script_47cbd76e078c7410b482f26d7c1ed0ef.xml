@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Medicine List">d28d593007487010b482f26d7c1ed018</macroponent>
+        <name>Create Incident</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const shortDescription = api.state.shortDesc;
+    const description = api.state.desc;
+    const grp = api.state.defaultGroup;
+    const userID = api.context.session.user.sys_id;
+    const templateFields = `caller_id=${userID}^short_description=${shortDescription}^description=${description}^assignment_group=${grp}`;
+    console.log("template fields = " + templateFields);
+    const record = api.data.create_incident.execute({
+        "table": "incident",
+        "templateFields": templateFields,
+        "useSetDisplayValue": false
+    });
+    console.log("Record = " + JSON.stringify(record, null, 4));
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-14 09:57:02</sys_created_on>
+        <sys_id>47cbd76e078c7410b482f26d7c1ed0ef</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create Incident</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_client_script_47cbd76e078c7410b482f26d7c1ed0ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 14:42:12</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

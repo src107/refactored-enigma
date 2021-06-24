@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Med Portal">3eee0ef907426010b482f26d7c1ed097</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Medicine Form">b78dab3407222010b482f26d7c1ed001</macroponent>
+        <macroponent_config>{
+  "medicineId" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Medicine Form default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Medicine Form">bf8d2bf007222010b482f26d7c1ed04c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-23 11:11:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c9dab3407222010b482f26d7c1ed004</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Medicine Form default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_screen_0c9dab3407222010b482f26d7c1ed004</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-23 11:19:33</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

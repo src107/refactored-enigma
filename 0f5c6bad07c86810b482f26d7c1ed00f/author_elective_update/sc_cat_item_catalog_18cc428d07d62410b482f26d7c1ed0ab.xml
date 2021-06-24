@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="">19fbc20d07d62410b482f26d7c1ed070</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 12:30:55</sys_created_on>
+        <sys_id>18cc428d07d62410b482f26d7c1ed0ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_18cc428d07d62410b482f26d7c1ed0ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 12:30:55</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</application>
+        <file_path/>
+        <instance_id>90c14105db277fc0387021c40596193a</instance_id>
+        <instance_name>dev92460</instance_name>
+        <name>sc_cat_item_catalog_18cc428d07d62410b482f26d7c1ed0ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="">19fbc20d07d62410b482f26d7c1ed070</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 12:30:55</sys_created_on><sys_id>18cc428d07d62410b482f26d7c1ed0ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.</sys_name><sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package><sys_policy/><sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope><sys_update_name>sc_cat_item_catalog_18cc428d07d62410b482f26d7c1ed0ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 12:30:55</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1414733949</payload_hash>
+        <record_name>Service Catalog.</record_name>
+        <reverted_from/>
+        <source>eac3983f074de450b482f26d7c1ed0af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 12:30:55</sys_created_on>
+        <sys_id>94cc428d07d62410b482f26d7c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1779112aa4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 12:30:55</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1ccc428d06d62410d0c9969e46dd56ad</update_guid>
+        <update_guid_history>1ccc428d06d62410d0c9969e46dd56ad:1414733949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.">a5ec068d07d62410b482f26d7c1ed0a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 12:31:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>9662f1eea6c24e009695cf8321b04000</sys_id>
+        <sys_metadata>18cc428d07d62410b482f26d7c1ed0ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_parent display_value="">19fbc20d07d62410b482f26d7c1ed070</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_scope_delete display_value="">b0f7ca9a87424213bee8e8e99d0787a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_18cc428d07d62410b482f26d7c1ed0ab</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_18cc428d07d62410b482f26d7c1ed0ab">94cc428d07d62410b482f26d7c1ed0ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 12:31:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

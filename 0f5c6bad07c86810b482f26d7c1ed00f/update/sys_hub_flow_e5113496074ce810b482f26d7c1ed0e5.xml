@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch2-10-01-2020</compiler_build>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>create_medicine_record_daily</internal_name>
         <label_cache>[{"name":"4066e99b-dd6c-4ac2-93d1-1b034d951b02.item.medicine_type","label":"2➛Daily medicine Record➛Medicine Type","reference":"","reference_display":"Medicine Type","type":"choice","base_type":"choice","parent_table_name":"x_399418_medicine_daily_medicine","column_name":"medicine_type"},{"name":"4066e99b-dd6c-4ac2-93d1-1b034d951b02.item.number","label":"2➛Daily medicine Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_399418_medicine_daily_medicine","column_name":"number"},{"name":"77b2bc5d-a2c1-4484-94c2-dd26c04f810e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77b2bc5d-a2c1-4484-94c2-dd26c04f810e.Table","label":"1➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77b2bc5d-a2c1-4484-94c2-dd26c04f810e.Records","label":"1➛Daily medicine Records","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9f0cbde-6962-44d3-975e-a9afd53e5d5e.Record.counter","label":"1➛Daily medicine Record➛Counter","reference":"","reference_display":"Counter","type":"integer","base_type":"integer","parent_table_name":"x_399418_medicine_daily_medicine","column_name":"counter"},{"name":"e9f0cbde-6962-44d3-975e-a9afd53e5d5e.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e9f0cbde-6962-44d3-975e-a9afd53e5d5e.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e9f0cbde-6962-44d3-975e-a9afd53e5d5e.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9f0cbde-6962-44d3-975e-a9afd53e5d5e.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4066e99b-dd6c-4ac2-93d1-1b034d951b02.item","label":"2➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3d972342-3dbf-4cff-acca-9dba91d068ea.record","label":"5➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d972342-3dbf-4cff-acca-9dba91d068ea.table_name","label":"5➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a745b3da-ae95-4a92-ae4b-e0a3a0259074.record","label":"7➛Daily medicine Record","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a745b3da-ae95-4a92-ae4b-e0a3a0259074.table_name","label":"7➛Daily medicine Table","reference":"x_399418_medicine_daily_medicine","reference_display":"Daily medicine","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>322e14a20705e050b482f26d7c1ed028</latest_snapshot>
+        <latest_snapshot>cc1a617207be2010b482f26d7c1ed0ff</latest_snapshot>
         <master_snapshot>2d6c0fd207cda050b482f26d7c1ed0f4</master_snapshot>
         <name>Create Medicine record Daily </name>
         <natlang/>
@@ -64,6 +64,7 @@
         <time>1970-01-01 17:00:00</time>
         <timer_type>11</timer_type>
     </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:226c8fd207cda050b482f26d7c1ed034^sys_idNOT INa66c8fd207cda050b482f26d7c1ed034"/>
     <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
@@ -98,26 +99,6 @@
         <trigger display_value="">226c8fd207cda050b482f26d7c1ed034</trigger>
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
-    <sys_hub_flow_component action="delete_multiple" query="flow=e5113496074ce810b482f26d7c1ed0e5^sys_idNOT IN22b17e9a074da050b482f26d7c1ed0e8"/>
-    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
-        <comment>Lookup Medicine Records and create medicine record according to the lookup results</comment>
-        <display_text/>
-        <flow display_value="Create Medicine record Daily ">e5113496074ce810b482f26d7c1ed0e5</flow>
-        <inputs/>
-        <order>1</order>
-        <parent_ui_id/>
-        <subflow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</subflow>
-        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-15 09:06:23</sys_created_on>
-        <sys_id>22b17e9a074da050b482f26d7c1ed0e8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-15 11:03:00</sys_updated_on>
-        <ui_id>37e2fafc-f38b-4498-b3e9-5f0705e13a5f</ui_id>
-    </sys_hub_sub_flow_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=22b17e9a074da050b482f26d7c1ed0e8"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e5113496074ce810b482f26d7c1ed0e5^sys_idNOT INdb19b89e074ce810b482f26d7c1ed097"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -150,7 +131,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-15 08:33:00</sys_updated_on>
         <value>1970-01-01 22:30:00</value>
-        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e5113496074ce810b482f26d7c1ed0e5^sys_idNOT IN21113496074ce810b482f26d7c1ed0e8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -173,6 +154,7 @@
         <order>1</order>
         <parent_ui_id/>
         <subflow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</subflow>
+        <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-15 09:06:23</sys_created_on>
@@ -189,7 +171,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6e6c8fd207cda050b482f26d7c1ed036","name":"plan"}}</plan>
         <plan_id>e5113496074ce810b482f26d7c1ed0e5</plan_id>
-        <snapshot>322e14a20705e050b482f26d7c1ed028</snapshot>
+        <snapshot>cc1a617207be2010b482f26d7c1ed0ff</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-15 11:02:59</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -243,26 +225,6 @@
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=2d6c0fd207cda050b482f26d7c1ed0f4"/>
     <sys_variable_value action="delete_multiple" query="document_key=2d6c0fd207cda050b482f26d7c1ed0f4"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2d6c0fd207cda050b482f26d7c1ed0f4^sys_idNOT IN256c0fd207cda050b482f26d7c1ed0fa"/>
-    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
-        <comment>Lookup Medicine Records and create medicine record according to the lookup results</comment>
-        <display_text/>
-        <flow display_value="Create Medicine record Daily ">2d6c0fd207cda050b482f26d7c1ed0f4</flow>
-        <inputs/>
-        <order>1</order>
-        <parent_ui_id/>
-        <subflow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</subflow>
-        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-15 11:02:55</sys_created_on>
-        <sys_id>256c0fd207cda050b482f26d7c1ed0fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-15 11:02:55</sys_updated_on>
-        <ui_id>37e2fafc-f38b-4498-b3e9-5f0705e13a5f</ui_id>
-    </sys_hub_sub_flow_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=256c0fd207cda050b482f26d7c1ed0fa"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2d6c0fd207cda050b482f26d7c1ed0f4^sys_idNOT IN616c0fd207cda050b482f26d7c1ed0f9"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -295,7 +257,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-15 11:02:55</sys_updated_on>
         <value>1970-01-01 22:30:00</value>
-        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2d6c0fd207cda050b482f26d7c1ed0f4^sys_idNOT INe16c0fd207cda050b482f26d7c1ed0f6"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -318,6 +280,7 @@
         <order>1</order>
         <parent_ui_id/>
         <subflow display_value="Lookup and create med record">5a713a9a074da050b482f26d7c1ed028</subflow>
+        <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-15 11:02:55</sys_created_on>

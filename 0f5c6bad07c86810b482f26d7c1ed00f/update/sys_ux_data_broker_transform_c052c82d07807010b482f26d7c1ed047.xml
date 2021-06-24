@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_399418_medicine.Med state values</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Med state values</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "description": "",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <required_translations>[]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var arr = [];
+	var choiceGr = new GlideRecord('sys_choice');
+	choiceGr.addEncodedQuery('name=x_399418_medicine_daily_medicine^element=status');
+	choiceGr.orderBy("sequence");
+	choiceGr.query();
+	while (choiceGr.next()) {
+		var obj = {
+			"id": choiceGr.getValue("value"),
+			"label": choiceGr.getValue("label")
+		};
+		arr.push(obj);
+	}
+	return arr;
+	
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 15:41:25</sys_created_on>
+        <sys_id>c052c82d07807010b482f26d7c1ed047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Med state values</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_c052c82d07807010b482f26d7c1ed047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 15:41:25</sys_updated_on>
+    </sys_ux_data_broker_transform>
+</record_update>

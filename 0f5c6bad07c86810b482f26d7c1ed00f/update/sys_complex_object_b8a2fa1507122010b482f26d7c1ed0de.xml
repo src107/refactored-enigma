@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf4a2fa15601220104913a55b0c9137de</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0f5c6bad07c86810b482f26d7c1ed00f</scope_name>
+        <serialized_content>{"FlowDesigner:FDf4a2fa15601220104913a55b0c9137de":{"medicine_type":"String","medicine_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"medicine type\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"},"medicine_intake_date":"String","medicine_intake_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"medicine intake date\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"medicine":"String","medicine.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"medicine\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDf4a2fa15601220104913a55b0c9137de.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Body\",\"mandatory\":\"false\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf4a2fa15601220104913a55b0c9137de\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"200\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 09:54:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8a2fa1507122010b482f26d7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf4a2fa15601220104913a55b0c9137de</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_complex_object_b8a2fa1507122010b482f26d7c1ed0de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 09:54:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice">
+    <sys_sg_input_choice action="INSERT_OR_UPDATE">
+        <image_url>https://www.patanjaliayurved.net/assets/product_images/400x300/400X300GiloyGhanVati.png</image_url>
+        <input display_value="Medicine">b0aff61007622010b482f26d7c1ed0f0</input>
+        <label>GILOYE</label>
+        <order>20</order>
+        <selected_image_url/>
+        <sys_class_name>sys_sg_input_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-21 19:37:14</sys_created_on>
+        <sys_id>1f6d479c07622010b482f26d7c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GILOYE</sys_name>
+        <sys_package display_value="Medicine" source="x_399418_medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medicine">0f5c6bad07c86810b482f26d7c1ed00f</sys_scope>
+        <sys_update_name>sys_sg_input_choice_1f6d479c07622010b482f26d7c1ed01c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-21 19:37:14</sys_updated_on>
+        <value>giloye</value>
+    </sys_sg_input_choice>
+</record_update>
